@@ -1,4 +1,4 @@
-import { MapPinned, ScreenShare, ShieldCheck, Star } from 'lucide-react'
+import { ChevronsDown, MapPinned, ScreenShare, ShieldCheck, Star } from 'lucide-react'
 import './App.css'
 import Button from './components/button/button'
 
@@ -36,7 +36,13 @@ function App() {
             <p className=''>10 ANOS DE EXPERIÊNCIA</p>
           </div>
         </div>
-        <div className='section-img'>sessão de imgs</div>
+        <div className='mensagem'>
+          <ChevronsDown size={42} />
+          <p style={{ borderLeft: '2px solid black', width: '100%', padding: '10px' }}>Se você foi vítima de um <span style={{ fontWeight: 'bold' }}>golpe do Pix</span> ou conhece alguém próximo que sofreu com este crime, não exite em contactar. Sou especialista em fraudes bancárias e estou sempre disposto a ajudar.</p>
+        </div>
+      </section>
+      <section className='section-2'>
+
       </section>
     </>
   )
