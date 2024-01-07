@@ -121,6 +121,8 @@
     width: auto;
     align-items: center;
     flex-direction: column;
+    right: 1rem;
+    left: 1rem;
   }
 
   .elementos-intro-conteudo {
