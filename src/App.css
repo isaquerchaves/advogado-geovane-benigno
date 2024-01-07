@@ -1,42 +1,80 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.container-principal {
+  background: linear-gradient(to right, #413d3e, #b1afaf);
+  color: #ffffff;
+  padding: 15rem 0 15rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  width: 25em;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.intro {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.intro-title {
+  width: 43rem;
+  font-size: 48px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.intro-subtitle {
+  width: 43rem;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 766px) {
+  .container-principal {
+    background: linear-gradient(to bottom, #413d3e, #b1afaf);
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+    padding: 2rem 0 6rem 0;
   }
-  to {
-    transform: rotate(360deg);
+  .intro {
+    grid-row: 1;
+    max-width: none; /* Remova a largura máxima dentro da regra de mídia */
+    padding: 0 10px; /* Adicionar algum espaçamento interno */
+    align-items: center;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .intro-title {
+    width: auto;
+    font-size: 38px;
+    grid-row: 1;
+    max-width: none; /* Remova a largura máxima dentro da regra de mídia */
+    text-align: center; /* Centralizar o texto */
+    padding: 0 10px;
   }
-}
 
-.card {
-  padding: 2em;
-}
+  .intro-subtitle {
+    font-size: 1em;
+    width: auto;
+    grid-row: 1;
+    max-width: none; /* Remova a largura máxima dentro da regra de mídia */
+    padding: 0 10px;
+  }
 
-.read-the-docs {
-  color: #888;
+  .logo {
+    width: 152px;
+    padding: 0;
+  }
 }
