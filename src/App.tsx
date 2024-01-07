@@ -10,7 +10,7 @@ function App() {
           <h1 className='intro-title'>Advocacia Especializada em Golpe do Pix</h1>
           <p className='intro-subtitle'>Toque no botão abaixo para falar com um advogado especialista no seu WhatsApp.</p>
           <p className='intro-subtitle'>Você será recebido e atendido por um profissional capaz de lhe aconselhar desde o início.</p>
-          <Button />
+          <Button title='QUERO ENTRAR EM CONTATO' />
         </div>
         <img src='/geovane-logo-branco.png' className='logo' />
       </section >
