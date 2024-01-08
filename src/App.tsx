@@ -1,4 +1,4 @@
-import { ChevronsDown, MapPinned, Minus, ScreenShare, ShieldCheck, Star } from 'lucide-react'
+import { ChevronsDown, CopyX, DollarSign, Landmark, MapPinned, MessageCircleX, Minus, QrCode, ScreenShare, ShieldCheck, Star, UserX, XOctagon } from 'lucide-react'
 import './App.css'
 import Button from './components/button/button'
 
@@ -53,6 +53,49 @@ function App() {
             </div>
           </div>
           <img src="golpe-do-pix.jpg" alt="Golpe do Pix" className='card-section-2-img' />
+        </div>
+        <div style={{ paddingBottom: '1rem' }}><Button title='QUERO RECUPERAR MEU DINHEIRO' /></div>
+      </section>
+      <section className='section-3'>
+        <div>
+          <div className='entenda'>
+            <Minus />
+            <p>EXEMPLOS</p>
+          </div>
+          <h1 className='card-section-2-title'>São problemas comuns no Golpe do Pix</h1>
+        </div>
+        <div className='problemas-comuns'>
+          <div className='problemas-comuns-card'>
+            <CopyX size={64} />
+            <p className='problemas-comuns-texto'>Clonagem do WhatsApp</p>
+          </div>
+          <div className='problemas-comuns-card'>
+            <MessageCircleX size={64} />
+            <p className='problemas-comuns-texto'>Perfil falso no WhatsApp</p>
+          </div>
+          <div className='problemas-comuns-card'>
+            <Landmark size={64} />
+            <p className='problemas-comuns-texto'>Atendimento falso do banco</p>
+          </div>
+          <div className='problemas-comuns-card'>
+            <XOctagon size={64} />
+            <p className='problemas-comuns-texto'>“Falha” do Pix que dá dinheiro a quem transferir</p>
+          </div>
+          <div className='problemas-comuns-card'>
+            <QrCode size={64} />
+            <p className='problemas-comuns-texto'>Golpe do QR Code Falso</p>
+          </div>
+          <div className='problemas-comuns-card'>
+            <DollarSign size={64} />
+            <p className='problemas-comuns-texto'>Valor falso do Pix na máquina de cartão</p>
+          </div>
+        </div>
+      </section>
+      <section className='section-4'>
+        <div className='recupere'>
+          <p className='entenda'>É POSSÍVEL RECUPERAR SEU DINHEIRO!</p>
+          <p className='recupere-texto'>Precisa de esclarecimentos sobre golpe do pix ou deseja entrar com um processo? Não espere mais! Entre em contato com nossa equipe e garanta a assessoria de um advogado competente nestes casos.</p>
+          <Button title='QUERO ENTRAR EM CONTATO' />
         </div>
       </section>
     </>
