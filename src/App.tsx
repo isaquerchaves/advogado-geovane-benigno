@@ -1,4 +1,4 @@
-import { ChevronsDown, CopyX, DollarSign, Landmark, MapPinned, MessageCircleX, Minus, QrCode, ScreenShare, ShieldCheck, Star, UserX, XOctagon } from 'lucide-react'
+import { ChevronsDown, CopyX, DollarSign, Landmark, MapPinned, MessageCircleX, Minus, QrCode, ScreenShare, ShieldCheck, Star, XOctagon } from 'lucide-react'
 import './App.css'
 import Button from './components/button/button'
 
