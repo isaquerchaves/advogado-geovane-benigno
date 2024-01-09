@@ -54,7 +54,7 @@ function App() {
           </div>
           <img src="golpe-do-pix.jpg" alt="Golpe do Pix" className='card-section-2-img' />
         </div>
-        <div style={{ paddingBottom: '1rem' }}><Button title='QUERO RECUPERAR MEU DINHEIRO' /></div>
+        <div className='button-mobile' style={{ paddingBottom: '1rem' }}><Button title='QUERO RECUPERAR MEU DINHEIRO' /></div>
       </section>
       <section className='section-3'>
         <div>

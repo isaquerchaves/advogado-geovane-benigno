@@ -299,7 +299,11 @@
   .card-section-2 {
     flex-direction: column;
     margin: 0;
-    padding: 0 0 1rem 0;
+    padding: 0;
+  }
+
+  .button-mobile {
+    padding-top: 1rem;
   }
 
   .card-section-2-content {
