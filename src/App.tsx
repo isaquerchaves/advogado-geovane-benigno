@@ -97,7 +97,17 @@ function App() {
           <p className='recupere-texto'>Precisa de esclarecimentos sobre golpe do pix ou deseja entrar com um processo? Não espere mais! Entre em contato com nossa equipe e garanta a assessoria de um advogado competente nestes casos.</p>
           <Button title='QUERO ENTRAR EM CONTATO' />
         </div>
+        <div className='geovane'>
+          <p className='geovane-texto' style={{ borderLeft: '2px solid black', lineHeight: '1.5' }}>O Geovane Cesário Advogado é especialista em proteger seus clientes contra golpes financeiros.</p>
+        </div>
       </section>
+      <footer className='footer'>
+        <img src='/geovane-logo-branco.png' className='logo-menor' />
+        <div className='footer-texto'>
+          <p>© 2024 Geovane Cesário Advogado, OAB/MA XX.XXX. Todos os direitos reservados.</p>
+          <p>Este site não oferece serviços públicos oficiais. O Geovane Cesário Advogado oferece serviços jurídicos privativos de advogado, de acordo com a legislação vigente e o Código de Ética e Disciplina da Ordem dos Advogados do Brasil.</p>
+        </div>
+      </footer>
     </>
   )
 }
