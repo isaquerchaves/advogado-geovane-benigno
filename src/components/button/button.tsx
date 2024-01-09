@@ -2,7 +2,7 @@ import './button.css'
 
 const Button = (props: any) => {
     const handleClick = () => {
-        const whatsappLink = "https://api.whatsapp.com/send?phone=559992285423&text=busco orientação profissional"
+        const whatsappLink = "https://api.whatsapp.com/send?phone=559991749423&text=Busco orientação profissional"
         window.location.href = whatsappLink;
     }
 

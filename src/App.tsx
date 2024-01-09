@@ -33,7 +33,7 @@ function App() {
           </div>
           <div className='elementos-intro-conteudo'>
             <Star size={38} color='black' />
-            <p className=''>10 ANOS DE EXPERIÊNCIA</p>
+            <p className=''>VASTA EXPERIÊNCIA NA ÁREA</p>
           </div>
         </div>
         <div className='mensagem'>
@@ -104,7 +104,7 @@ function App() {
       <footer className='footer'>
         <img src='/geovane-logo-branco.png' className='logo-menor' />
         <div className='footer-texto'>
-          <p>© 2024 Geovane Cesário Advogado, OAB/MA XX.XXX. Todos os direitos reservados.</p>
+          <p>© 2024 Geovane Cesário da Silva, OAB 26.597/MA. Todos os direitos reservados.</p>
           <p>Este site não oferece serviços públicos oficiais. O Geovane Cesário Advogado oferece serviços jurídicos privativos de advogado, de acordo com a legislação vigente e o Código de Ética e Disciplina da Ordem dos Advogados do Brasil.</p>
         </div>
       </footer>
